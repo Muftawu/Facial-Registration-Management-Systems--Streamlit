@@ -1,2 +1,9 @@
 # Facial-Registration-Management-Systems---Flutter
-Online platform that allows users to take their biometric registration by means of facial scan, encoding and recognition
+Online User registration platform that makes it easy to register your 
+biometrics without having to go to the office. 
+
+This includes real time facial and hand scans that are recorded and stored 
+in our database for analysis. 
+
+This repository targets the facial scan aspect. The hand scan will be implemented 
+in a different repository God willing.
