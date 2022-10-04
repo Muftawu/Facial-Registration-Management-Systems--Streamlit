@@ -39,7 +39,7 @@ st.sidebar.title("Select an Option")
 st.markdown("---")
 
 # Activity widgets
-actions = ['Home Page','Register New Customer', 'View all existing users']
+actions = ['Home Page','Register New Customer', 'View all existing users', 'Authenticate existing users']
 activity_option = st.sidebar.selectbox("Choose one", actions)
 
 
@@ -59,6 +59,8 @@ def mainloop():
         print("Number of users: ", len(encoded_values))
         read_database(img_path)
 
+    if activity_option == actions[3]:
+        facial_recognition(img_path)
 
 if __name__ == "__main__":
     mainloop()
